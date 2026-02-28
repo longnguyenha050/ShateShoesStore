@@ -5,6 +5,7 @@ import Banner from "./components/Banner";
 import StatsSection from "./components/StatsSection";
 import FlashSale from "./components/Flashsale";
 import Collection from "./components/Collection";
+import Deepseeker from "../../../components/Customer/Deepseeker";
 
 const HomePage = () => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const HomePage = () => {
       <StatsSection />
       {/* <FlashSale /> */}
       <Collection />
+      <Deepseeker />
 
       <Footer />
     </div>
